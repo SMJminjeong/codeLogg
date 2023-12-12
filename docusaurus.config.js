@@ -14,15 +14,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   organizationName: 'SMJminjeong', // Usually your GitHub org/user name.
   projectName: 'codeLogg', // Usually your repo name.
 
-  i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko', 'en'],
-    localeConfigs: {
-      ko: {
-        htmlLang: 'ko-KR',
-      },
-      en: {
-        htmlLang: 'en-US',
+  customFields: {
+    i18n: {
+      defaultLocale: 'ko',
+      locales: ['ko', 'en'],
+      localeConfigs: {
+        ko: {
+          htmlLang: 'ko-KR',
+        },
+        en: {
+          htmlLang: 'en-US',
+        },
       },
     },
   },
