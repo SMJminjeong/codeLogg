@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'CODELOGG',
   tagline: 'Dinosaurs are cool',
   url: 'https://SMJminjeong.github.io',
-  baseUrl: '/codeLogg',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
