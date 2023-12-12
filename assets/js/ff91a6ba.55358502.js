@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcode_logg=self.webpackChunkcode_logg||[]).push([[402],{3484:o=>{o.exports=JSON.parse('{"allTagsPath":"/codeLogg/blog/tags","slug":"/codeLogg/blog/tags/facebook","name":"facebook","count":1,"permalink":"/codeLogg/blog/tags/facebook"}')}}]);

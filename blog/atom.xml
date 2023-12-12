@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://SMJminjeong.github.io/codeLogg/blog</id>
-    <title>CODELOGG Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <title>code logg Blog</title>
+    <updated>2023-12-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SMJminjeong.github.io/codeLogg/blog"/>
-    <subtitle>CODELOGG Blog</subtitle>
+    <subtitle>code logg Blog</subtitle>
     <icon>https://SMJminjeong.github.io/codeLogg/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://SMJminjeong.github.io/codeLogg/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <title type="html"><![CDATA[시작하기]]></title>
+        <id>slug</id>
+        <link href="https://SMJminjeong.github.io/codeLogg/blog/slug"/>
+        <updated>2023-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[docusaurus 를 이용하여 블로그를 만들어보았다.]]></summary>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
+            <name>MinJeong</name>
+            <uri>ttps://github.com/SMJminjeong</uri>
         </author>
     </entry>
     <entry>

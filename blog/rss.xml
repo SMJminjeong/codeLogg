@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>CODELOGG Blog</title>
+        <title>code logg Blog</title>
         <link>https://SMJminjeong.github.io/codeLogg/blog</link>
-        <description>CODELOGG Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <description>code logg Blog</description>
+        <lastBuildDate>Tue, 12 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://SMJminjeong.github.io/codeLogg/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
+            <title><![CDATA[시작하기]]></title>
+            <link>https://SMJminjeong.github.io/codeLogg/blog/slug</link>
+            <guid>slug</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[docusaurus 를 이용하여 블로그를 만들어보았다.]]></description>
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
