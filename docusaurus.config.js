@@ -62,9 +62,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/logo.svg',
         },
         items: [
-          { to: "/tags", label: "Tags", position: "left" },
           {to: '/blog', label: 'Blog', position: 'left'},
-          { to: "/archive", label: "Archive", position: "left" },
           {
             href: 'https://github.com/SMJminjeong',
             label: 'GitHub',
