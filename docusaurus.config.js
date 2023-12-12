@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'CODELOGG',
   tagline: 'Dinosaurs are cool',
-  url: 'https://codeLogg.netlify.app',
-  baseUrl: '/',
+  url: 'https://SMJminjeong.github.io',
+  baseUrl: '/codeLogg/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
