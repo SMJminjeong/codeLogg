@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Welcome to Code Logg',
   tagline: '',
-  url: 'https://SMJminjeong.com',
+  url: 'https://SMJminjeong.github.io',
   baseUrl: '/codeLogg/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -62,25 +62,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
-          {
-            label: 'TIL',
-            position: 'left', // or 'right'
-            items: [
-              {
-                label: '2023-12',
-                to: '/TIL/2023-12',
-              },
-              {
-                label: '2024-01',
-                to: '...',
-              }
-              ]
-          },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/SMJminjeong',
             label: 'GitHub',
