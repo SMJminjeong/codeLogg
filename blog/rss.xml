@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>code logg Blog</title>
+        <title>Welcome to Code Logg Blog</title>
         <link>https://SMJminjeong.github.io/codeLogg/blog</link>
-        <description>code logg Blog</description>
+        <description>Welcome to Code Logg Blog</description>
         <lastBuildDate>Tue, 12 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
