@@ -23,5 +23,6 @@ ex ) 정수 < 실수
 
 ##### 그 외
 :::info
+형변환을 할 경우에는 (double) 같은 방식으로 사용!
 System.out.printf("%.2f", (double)(a+b)/(a-b));
 :::
