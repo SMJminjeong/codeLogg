@@ -20,3 +20,8 @@ tags: [software]
 ex ) 정수 < 실수
 :::
 <br/>
+
+##### 그 외
+:::info
+System.out.printf("%.2f", (double)(a+b)/(a-b));
+:::
