@@ -37,13 +37,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/test.svg',
         },
         items: [
           {
@@ -70,16 +70,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             label: 'TIL',
             position: 'left', // or 'right'
-            items: [
-              {
-                label: '2023-12',
-                to: '/TIL/2023-12',
-              },
-              {
-                label: '2024-01',
-                to: '...',
-              }
-              ]
+            to: '/docs/TIL',
           },
           {
             href: 'https://github.com/SMJminjeong',
@@ -96,5 +87,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+            'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      },
     }),
+
 });
