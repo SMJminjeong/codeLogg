@@ -68,9 +68,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left'
           },
           {
-            label: 'TIL',
-            position: 'left', // or 'right'
-            to: '/docs/TIL',
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
           },
           {
             href: 'https://github.com/SMJminjeong',
