@@ -2,38 +2,45 @@
 <rss version="2.0">
     <channel>
         <title>Welcome to Code Logg Blog</title>
-        <link>https://SMJminjeong.github.io/codeLogg/blog</link>
+        <link>https://SMJminjeong.com/codeLogg/blog</link>
         <description>Welcome to Code Logg Blog</description>
-        <lastBuildDate>Tue, 12 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Dec 2023 00:59:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[Java syntax]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/codeTree</link>
+            <guid>codeTree</guid>
+            <pubDate>Mon, 25 Dec 2023 00:59:57 GMT</pubDate>
+            <description><![CDATA[scanner.useDelimiter()]]></description>
+        </item>
+        <item>
             <title><![CDATA[시작하기]]></title>
-            <link>https://SMJminjeong.github.io/codeLogg/blog/slug</link>
+            <link>https://SMJminjeong.com/codeLogg/blog/slug</link>
             <guid>slug</guid>
-            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 25 Dec 2023 00:59:57 GMT</pubDate>
             <description><![CDATA[docusaurus 를 이용하여 블로그를 만들어보았다.]]></description>
         </item>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://SMJminjeong.github.io/codeLogg/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
+            <title><![CDATA[Java - condition]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/javaIf</link>
+            <guid>javaIf</guid>
+            <pubDate>Tue, 19 Dec 2023 10:25:32 GMT</pubDate>
+            <description><![CDATA[✅ {  } 블록을 쓰지 않는다면 ?]]></description>
         </item>
         <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://SMJminjeong.github.io/codeLogg/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
+            <title><![CDATA[Java - calculate]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/javaCalculate</link>
+            <guid>javaCalculate</guid>
+            <pubDate>Tue, 19 Dec 2023 10:10:53 GMT</pubDate>
+            <description><![CDATA[✅ 정수형 & 실수형]]></description>
         </item>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://SMJminjeong.github.io/codeLogg/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <title><![CDATA[Architecture]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/architecture</link>
+            <guid>architecture</guid>
+            <pubDate>Tue, 19 Dec 2023 10:10:53 GMT</pubDate>
+            <description><![CDATA[✅ 아키텍처란? = Architecture]]></description>
         </item>
     </channel>
 </rss>
