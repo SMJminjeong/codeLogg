@@ -64,14 +64,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             to: '/blog',
-            label: 'Blog',
+            label: 'TIL',
             position: 'left'
           },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Blog',
           },
           {
             href: 'https://github.com/SMJminjeong',
