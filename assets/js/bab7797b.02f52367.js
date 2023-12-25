@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcode_logg=self.webpackChunkcode_logg||[]).push([[88],{5994:e=>{e.exports=JSON.parse('{"allTagsPath":"/codeLogg/blog/tags","slug":"/codeLogg/blog/tags/code-tree","name":"codeTree","count":1,"permalink":"/codeLogg/blog/tags/code-tree"}')}}]);
