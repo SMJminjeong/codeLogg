@@ -4,9 +4,16 @@
         <title>Welcome to Code Logg Blog</title>
         <link>https://SMJminjeong.com/codeLogg/blog</link>
         <description>Welcome to Code Logg Blog</description>
-        <lastBuildDate>Mon, 25 Dec 2023 00:59:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[2023/12/26]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/2023/12/26</link>
+            <guid>2023/12/26</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[- [ ] 코드트리]]></description>
+        </item>
         <item>
             <title><![CDATA[Java syntax]]></title>
             <link>https://SMJminjeong.com/codeLogg/blog/codeTree</link>
