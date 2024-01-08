@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcode_logg=self.webpackChunkcode_logg||[]).push([[8221],{5149:e=>{e.exports=JSON.parse('{"name":"codeTree","permalink":"/codeLogg/tags/code-tree","docs":[{"id":"Algorithm/codeTree","title":"Java syntax","description":"scanner.useDelimiter()","permalink":"/codeLogg/Algorithm/codeTree"}],"allTagsPath":"/codeLogg/tags"}')}}]);
