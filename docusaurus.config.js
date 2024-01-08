@@ -56,7 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "MinJeong's Blog",
+        title: "CodeLogg",
         logo: {
           alt: 'My Site Logo',
           src: 'img/test.svg',
