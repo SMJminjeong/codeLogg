@@ -13,13 +13,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'SMJminjeong', // Usually your GitHub org/user name.
   projectName: 'codeLogg', // Usually your repo name.
-  header: {
-    logo: {
-      src: 'img/CodeLogg.png',
-      // 선택적으로 width, height 조정 가능
-      // 링크 설정
-    },
-  },
 
   customFields: {
     i18n: {
