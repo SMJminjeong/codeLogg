@@ -9,12 +9,32 @@
   position: relative;
   overflow: hidden;
   background: #020321;
-  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroBanner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* 부모 요소인 header의 높이를 차지하도록 설정 */
+  padding: 0;
+}
+
+.heroBanner img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* IE8 이하 버전 대응 */
+  vertical-align: middle; /* 이미지를 수직 가운데 정렬 */
+  display: block;
+  margin: 0; /* 이미지 주변의 마진 제거 */
+  padding: 0; /* 이미지 주변의 패딩 제거 */
 }
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 0;
   }
 }
 
