@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcode_logg=self.webpackChunkcode_logg||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"All posts","items":[{"title":"2024/01/09","permalink":"/codeLogg/blog/2024/01/09/TIL"},{"title":"2024/01/08","permalink":"/codeLogg/blog/2024/01/08/TIL"},{"title":"\uc2dc\uc791\ud558\uae30","permalink":"/codeLogg/blog/slug"}]}')}}]);
