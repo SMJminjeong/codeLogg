@@ -74,9 +74,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Blog',
           },
           {
+            href: 'https://code-logg.tistory.com/',
+            label: 'Tistory',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/SMJminjeong',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
           },
         ],
       },
@@ -91,7 +96,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       announcementBar: {
         id: 'support_us',
         content:
-            'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+            'my another blog in <a target="_blank" rel="noopener noreferrer" href="https://code-logg.tistory.com/">tistory</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
