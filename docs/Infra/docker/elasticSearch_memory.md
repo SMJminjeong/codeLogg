@@ -18,3 +18,8 @@ docker-compose up -d
 ```shell
 vm.max_map_count
 ```
+
+```shell
+sh-5.0# sysctl vm.max_map_count
+vm.max_map_count = 262144
+```
