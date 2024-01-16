@@ -1,6 +1,6 @@
 ---
-slug: book/bookname
-title: bookname
+slug: JPA/jpa1
+title: jpa1
 author: MinJeong
 author_title: Software Developer
 author_url: ttps://github.com/SMJminjeong
