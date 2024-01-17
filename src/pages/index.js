@@ -7,26 +7,41 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-          <div className="container">
-              <img src="img/CodeLogg.png" alt="CodeLogg" /> {/* 이미지 추가 */}
-          </div>
-      </header>
-  );
+    const {siteConfig} = useDocusaurusContext();
+    return (
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
+        </header>
+
+    );
 }
 
+function HomepageBody() {
+    return (
+        <div className="bodyContainer">
+            <div className="imgContainer">
+                <img className="drawingBody" src="img/myDrawing.png" alt="Drawing Body"/>
+                <div>
+                    <br/>
+
+                </div>
+            </div>
+        </div>
+    );
+}
+
+
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+    const {siteConfig} = useDocusaurusContext();
+    return (
+        <Layout
+            title={`Hello from ${siteConfig.title}`}
+            description="Description will go into a meta tag in <head />">
+            <HomepageHeader/>
+            <HomepageBody/>
+            <main>
+                <HomepageFeatures/>
+            </main>
+        </Layout>
+    );
 }

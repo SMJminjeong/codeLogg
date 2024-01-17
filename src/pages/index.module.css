@@ -2,6 +2,11 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.drawingBody {
+  max-width: 100%; /* 이미지가 부모 요소를 벗어나지 않도록 최대 너비 지정 */
+  margin: 30px;
+  text-align: center;
+}
 
 .heroBanner {
   padding: 0;
@@ -13,14 +18,15 @@
   justify-content: center;
   align-items: center;
 }
-
-.heroBanner .container {
+.bodyContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* 부모 요소인 header의 높이를 차지하도록 설정 */
-  padding: 0;
+  height: 100vh; /* 화면 전체 높이를 기준으로 정 가운데에 위치하도록 설정 */
 }
+
+
+
 
 .heroBanner img {
   max-width: 100%;
