@@ -10,7 +10,7 @@ tags: [software]
 
 
 h2 download
-가볍고, 웹용 쿼리툴 제
+가볍고, 웹용 쿼리툴 제공
 
 ```angular2html
 cd h2/bin 
