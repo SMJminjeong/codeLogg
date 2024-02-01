@@ -22,7 +22,6 @@ function HomepageBody() {
             <div className="imgContainer">
                 <img className="drawingBody" src="img/myDrawing.png" alt="Drawing Body"/>
                 <div>
-                    <br/>
 
                 </div>
             </div>
