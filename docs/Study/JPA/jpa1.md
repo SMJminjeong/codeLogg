@@ -1,5 +1,5 @@
 ---
-slug: JPA/jpa1
+slug: jpa1
 title: jpa1
 author: MinJeong
 author_title: Software Developer
