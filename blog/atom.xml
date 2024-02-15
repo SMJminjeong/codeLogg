@@ -2,28 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://SMJminjeong.com/codeLogg/blog</id>
     <title>Welcome to Code Logg Blog</title>
-    <updated>2024-01-09T00:00:00.000Z</updated>
+    <updated>2024-02-15T07:45:17.545Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SMJminjeong.com/codeLogg/blog"/>
     <subtitle>Welcome to Code Logg Blog</subtitle>
     <icon>https://SMJminjeong.com/codeLogg/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[2024/01/09]]></title>
-        <id>2024/01/09/TIL</id>
-        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/09/TIL"/>
-        <updated>2024-01-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[⭐ 오늘의 키워드 ⭐]]></summary>
+        <title type="html"><![CDATA[2024년 01월 회고]]></title>
+        <id>2024/01/Monthly</id>
+        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/Monthly"/>
+        <updated>2024-02-15T07:45:17.545Z</updated>
+        <summary type="html"><![CDATA[💌 회고]]></summary>
         <author>
             <name>MinJeong</name>
             <uri>ttps://github.com/SMJminjeong</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024/01/08]]></title>
-        <id>2024/01/08/TIL</id>
-        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/08/TIL"/>
-        <updated>2024-01-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[⭐ 오늘의 키워드 ⭐]]></summary>
+        <title type="html"><![CDATA[2024/01 셋째주 회고]]></title>
+        <id>2024/01/3/Weekly</id>
+        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/3/Weekly"/>
+        <updated>2024-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2024년 01월 셋째주 회고]]></summary>
+        <author>
+            <name>MinJeong</name>
+            <uri>ttps://github.com/SMJminjeong</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024/01 둘째주 회고]]></title>
+        <id>2024/01/2/Weekly</id>
+        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/2/Weekly"/>
+        <updated>2024-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2024년 01월 둘째주 회고]]></summary>
+        <author>
+            <name>MinJeong</name>
+            <uri>ttps://github.com/SMJminjeong</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024/01 첫째주 회고]]></title>
+        <id>2024/01/1/Weekly</id>
+        <link href="https://SMJminjeong.com/codeLogg/blog/2024/01/1/Weekly"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2024년 01월 첫째주 회고]]></summary>
         <author>
             <name>MinJeong</name>
             <uri>ttps://github.com/SMJminjeong</uri>

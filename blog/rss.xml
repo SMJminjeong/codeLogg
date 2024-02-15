@@ -4,22 +4,36 @@
         <title>Welcome to Code Logg Blog</title>
         <link>https://SMJminjeong.com/codeLogg/blog</link>
         <description>Welcome to Code Logg Blog</description>
-        <lastBuildDate>Tue, 09 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Feb 2024 07:45:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[2024/01/09]]></title>
-            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/09/TIL</link>
-            <guid>2024/01/09/TIL</guid>
-            <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[⭐ 오늘의 키워드 ⭐]]></description>
+            <title><![CDATA[2024년 01월 회고]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/Monthly</link>
+            <guid>2024/01/Monthly</guid>
+            <pubDate>Thu, 15 Feb 2024 07:45:17 GMT</pubDate>
+            <description><![CDATA[💌 회고]]></description>
         </item>
         <item>
-            <title><![CDATA[2024/01/08]]></title>
-            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/08/TIL</link>
-            <guid>2024/01/08/TIL</guid>
-            <pubDate>Mon, 08 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[⭐ 오늘의 키워드 ⭐]]></description>
+            <title><![CDATA[2024/01 셋째주 회고]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/3/Weekly</link>
+            <guid>2024/01/3/Weekly</guid>
+            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2024년 01월 셋째주 회고]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2024/01 둘째주 회고]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/2/Weekly</link>
+            <guid>2024/01/2/Weekly</guid>
+            <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2024년 01월 둘째주 회고]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2024/01 첫째주 회고]]></title>
+            <link>https://SMJminjeong.com/codeLogg/blog/2024/01/1/Weekly</link>
+            <guid>2024/01/1/Weekly</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2024년 01월 첫째주 회고]]></description>
         </item>
         <item>
             <title><![CDATA[시작하기]]></title>
