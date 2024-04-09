@@ -2,16 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
-{/*<img src="img/diary.svg" alt="Diary"/>*/
-}
-{/*<img src="img/book.svg" alt="Diary"/>*/
-}
-{/*<img src="img/folder.svg" alt="Diary"/>*/
-}
-{/*<img src="img/rabbot.svg" alt="Diary"/>*/
-}
-{/*<img src="img/trouble.svg" alt="Diary"/>*/
-}
 const FeatureList = [
     {
         title: 'review',
@@ -31,7 +21,7 @@ const FeatureList = [
                 in Progress
             </>
         ),
-        href: 'Study/OpenAPI/book/openAPI와스웨거를활용한실전API설계/01'
+        href: 'Study/Intro'
 
     },
     {
@@ -42,7 +32,7 @@ const FeatureList = [
                 daily work log
             </>
         ),
-        href: 'Daily/2024-03/daily/2024/03/18'
+        href: 'WorkLog/Intro'
     },
     {
         title: 'troubleShooting',
@@ -52,7 +42,7 @@ const FeatureList = [
                 Overcoming obstacles
             </>
         ),
-        href: 'Study/TroubleShooting/TroubleShooting/ElasticSearch연결안됨'
+        href: 'TroubleShooting/Intro'
     }
 ];
 
