@@ -20,7 +20,12 @@ function HomepageBody() {
     return (
         <div className="bodyContainer">
             <div className="imgContainer">
-                <img className="drawingBody" src="img/myDrawing.png" alt="Drawing Body"/>
+                {/*<img className="drawingBody" src="img/myDrawing.png" alt="Drawing Body"/>*/}
+                {/*<img src="img/diary.svg" alt="Diary"/>*/}
+                {/*<img src="img/book.svg" alt="Diary"/>*/}
+                {/*<img src="img/folder.svg" alt="Diary"/>*/}
+                {/*<img src="img/rabbot.svg" alt="Diary"/>*/}
+                {/*<img src="img/trouble.svg" alt="Diary"/>*/}
                 <div>
 
                 </div>
