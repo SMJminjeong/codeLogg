@@ -1,0 +1,70 @@
+---
+slug: daily/2024/
+title: 2024/0
+author: MinJeong
+author_title: Software Developer
+author_url: ttps://github.com/SMJminjeong
+author_image_url: https://i.ibb.co/hX6xc0V/MJMW0830.jpg
+tags: [software]
+---
+
+### 일지 기록
+
+:::info
+제품 분리 스프린트 중 마주한 404 오류
+:::
+
+<br/>
+[ 2024/02/07 ]
+
+### 🧐 Problem
+
+```jsx
+Access denied for user 'attic'@'localhost' (using password: YES)
+docker 다 죽이고 포트까지 죽이고 하니까 접속됨
+dbeaver 로 붙어보면 됨
+```
+
+```jsx
+# [Table ���� ����] job started.
+java.io.FileNotFoundException: D:\_CTeam\_BD\attic-ctalk-release\attic-03-schema\schema-reverse\target\dworks\dbscript\Attic-���̺����.xls (������ ��θ� ã�� �� �����ϴ�)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at spectra.attic.tools.database.reverse.job.tablespecification.TableSpecificationExecutor.saveToExcel(TableSpecificationExecutor.java:48)
+	at spectra.attic.tools.database.reverse.job.tablespecification.TableSpecificationExecutor.execute(TableSpecificationExecutor.java:40)
+	at spectra.attic.tools.database.reverse.job.JobExecutor.start(JobExecutor.java:33)
+	at spectra.attic.tools.database.reverse.Application.run(Application.java:25)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at spectra.attic.tools.database.reverse.Application.main(Application.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:47)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:86)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+# [Table ���� ����] job ended.
+```
+
+한번에 모듈 안돌려서
+
+---
+
+### 👀 Analysis
+
+---
+
+### 🌈 Solution
+
+---
+
+### 🎯 Outcome
+
+---
+
+### 👼 Reflection

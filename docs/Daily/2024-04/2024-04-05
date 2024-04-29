@@ -1,0 +1,46 @@
+---
+slug: daily/2024/
+title: 2024/0
+author: MinJeong
+author_title: Software Developer
+author_url: ttps://github.com/SMJminjeong
+author_image_url: https://i.ibb.co/hX6xc0V/MJMW0830.jpg
+tags: [software]
+---
+
+### 일지 기록
+
+:::info
+- 코드리뷰
+- 메이븐 해결 테ㅐ이블 명세서
+- docs 안됨
+:::
+
+<br/>
+[ 2024/02/07 ]
+
+### 🧐 Problem
+
+로직 확인해보니 handleSubmit 함수 (async 비동기 함수) 내부에서 API 요청같은 비동기 활동이 있는데
+
+해당 함수 최상위 로직에서 바로 submitError(State) 를 변경하고 이 때문에 리랜더링이 발생해
+
+아래 분기문에 걸려 실제로 handleSubmit 함수를 수행하고 있는
+
+TemplateMessage 컴포넌트가 unmount 되면서 발생한 에러입니다.
+
+---
+
+### 👀 Analysis
+
+---
+
+### 🌈 Solution
+
+---
+
+### 🎯 Outcome
+
+---
+
+### 👼 Reflection

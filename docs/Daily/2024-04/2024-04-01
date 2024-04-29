@@ -1,0 +1,122 @@
+---
+slug: daily/2024/
+title: 2024/0
+author: MinJeong
+author_title: Software Developer
+author_url: ttps://github.com/SMJminjeong
+author_image_url: https://i.ibb.co/hX6xc0V/MJMW0830.jpg
+tags: [software]
+---
+
+### 일지 기록
+
+:::info
+- db 테이블 명세서 작성
+- docker-compose up -d
+- 포트 죽이고 다시 했음
+:::
+
+<br/>
+[ 2024/02/07 ]
+
+### 🧐 Problem
+```jsx
+mysql  | 2024-04-01 10:44:57+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.
+mysql  | 2024-04-01 10:44:57+09:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+mysql  | 2024-04-01 10:44:57+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.
+mysql  | 2024-04-01 10:44:57+09:00 [Note] [Entrypoint]: Initializing database files
+mysql  | 2024-04-01T01:44:57.437890Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+mysql  | 2024-04-01T01:44:57.437937Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.36) initializing of server in progress as process 80
+mysql  | 2024-04-01T01:44:57.442238Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+mysql  | 2024-04-01T01:44:57.703050Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysql  | 2024-04-01T01:44:58.548673Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+mysql  | 2024-04-01 10:45:01+09:00 [Note] [Entrypoint]: Database files initialized
+mysql  | 2024-04-01 10:45:01+09:00 [Note] [Entrypoint]: Starting temporary server
+mysql  | 2024-04-01T01:45:01.296669Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+mysql  | 2024-04-01T01:45:01.298355Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.36) starting as process 124
+mysql  | 2024-04-01T01:45:01.306954Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+mysql  | 2024-04-01T01:45:01.401429Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysql  | 2024-04-01T01:45:01.577793Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+mysql  | 2024-04-01T01:45:01.577826Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+mysql  | 2024-04-01T01:45:01.579875Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+mysql  | 2024-04-01T01:45:01.592024Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+mysql  | 2024-04-01T01:45:01.592020Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+mysql  | 2024-04-01 10:45:01+09:00 [Note] [Entrypoint]: Temporary server started.
+mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+mysql  | Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+mysql  | 2024-04-01 10:45:02+09:00 [Note] [Entrypoint]: Creating database attic
+mysql  | 2024-04-01 10:45:02+09:00 [Note] [Entrypoint]: Creating user attic
+mysql  | 2024-04-01 10:45:02+09:00 [Note] [Entrypoint]: Giving user attic access to schema attic
+mysql  | 
+mysql  | 2024-04-01 10:45:02+09:00 [Note] [Entrypoint]: Stopping temporary server
+mysql  | 2024-04-01T01:45:02.948063Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.36).
+mysql  | 2024-04-01T01:45:04.238739Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.36)  MySQL Community Server - GPL.
+mysql  | 2024-04-01 10:45:04+09:00 [Note] [Entrypoint]: Temporary server stopped
+mysql  | 
+mysql  | 2024-04-01 10:45:04+09:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+mysql  | 
+mysql  | 2024-04-01T01:45:05.119122Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+mysql  | 2024-04-01T01:45:05.119649Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.36) starting as process 1
+mysql  | 2024-04-01T01:45:05.129803Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+mysql  | 2024-04-01T01:45:05.205405Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysql  | 2024-04-01T01:45:05.367926Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+mysql  | 2024-04-01T01:45:05.367968Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+mysql  | 2024-04-01T01:45:05.371273Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+mysql  | 2024-04-01T01:45:05.381627Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+mysql  | 2024-04-01T01:45:05.381665Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+```
+
+```jsx
+mysql  | 2024-04-01 10:44:57+09:00 [참고] [진입점]: MySQL 서버 8.0.36-1.el8을 위한 진입점 스크립트 시작됨.
+mysql  | 2024-04-01 10:44:57+09:00 [참고] [진입점]: 'mysql' 전용 사용자로 전환 중
+mysql  | 2024-04-01 10:44:57+09:00 [참고] [진입점]: MySQL 서버 8.0.36-1.el8을 위한 진입점 스크립트 시작됨.
+mysql  | 2024-04-01 10:44:57+09:00 [참고] [진입점]: 데이터베이스 파일 초기화 중
+mysql  | 2024-04-01T01:44:57.437890Z 0 [경고] [MY-011068] [서버] '--skip-host-cache' 구문은 폐기되었으며 향후 릴리스에서 제거될 예정입니다. 대신 SET GLOBAL host_cache_size=0을(를) 사용하십시오.
+mysql  | 2024-04-01T01:44:57.437937Z 0 [시스템] [MY-013169] [서버] /usr/sbin/mysqld (mysqld 8.0.36) 서버 초기화 진행 중, 프로세스 80으로
+mysql  | 2024-04-01T01:44:57.442238Z 1 [시스템] [MY-013576] [InnoDB] InnoDB 초기화가 시작되었습니다.
+mysql  | 2024-04-01T01:44:57.703050Z 1 [시스템] [MY-013577] [InnoDB] InnoDB 초기화가 완료되었습니다.
+mysql  | 2024-04-01T01:44:58.548673Z 6 [경고] [MY-010453] [서버] root@localhost는 비밀번호가 없이 생성되었습니다! --initialize-insecure 옵션을 끄는 것을 고려하십시오.
+mysql  | 2024-04-01 10:45:01+09:00 [참고] [진입점]: 데이터베이스 파일 초기화됨
+mysql  | 2024-04-01 10:45:01+09:00 [참고] [진입점]: 임시 서버 시작 중
+mysql  | 2024-04-01T01:45:01.296669Z 0 [경고] [MY-011068] [서버] '--skip-host-cache' 구문은 폐기되었으며 향후 릴리스에서 제거될 예정입니다. 대신 SET GLOBAL host_cache_size=0을(를) 사용하십시오.
+mysql  | 2024-04-01T01:45:01.298355Z 0 [시스템] [MY-010116] [서버] /usr/sbin/mysqld (mysqld 8.0.36) 프로세스 124로 시작 중
+mysql  | 2024-04-01T01:45:01.306954Z 1 [시스템] [MY-013576] [InnoDB] InnoDB 초기화가 시작되었습니다.
+mysql  | 2024-04-01T01:45:01.401429Z 1 [시스템] [MY-013577] [InnoDB] InnoDB 초기화가 완료되었습니다.
+mysql  | 2024-04-01T01:45:01.577793Z 0 [경고] [MY-010068] [서버] CA 인증서 ca.pem은 자체 서명되었습니다.
+mysql  | 2024-04-01T01:45:01.577826Z 0 [시스템] [MY-013602] [서버] 채널 mysql_main은 TLS를 지원하도록 구성되었습니다. 이 채널에 대해 암호화된 연결이 지원됩니다.
+mysql  | 2024-04-01T01:45:01.579875Z 0 [경고] [MY-011810] [서버] --pid-file을 위한 보안 구성: 경로 '/var/run/mysqld'은 모든 OS 사용자에게 접근 가능합니다. 다른 디렉토리를 선택하는 것을 고려하십시오.
+mysql  | 2024-04-01T01:45:01.592024Z 0 [시스템] [MY-010931] [서버] /usr/sbin/mysqld: 연결을 위해 준비되었습니다. 버전: '8.0.36' 소켓: '/var/run/mysqld/mysqld.sock' 포트: 0 MySQL Community Server - GPL.
+mysql  | 2024-04-01T01:45:01.592020Z 0 [시스템] [MY-011323] [서버] X Plugin이 연결을 위해 준비되었습니다. 소켓: /var/run/mysqld/mysqlx.sock
+mysql  | 2024-04-01 10:45:01+09:00 [참고] [진입점]: 임시 서버 시작됨.
+mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+mysql  | 경고: '/usr/share/zoneinfo/iso3166.tab'을(를) 타임존으로 로드할 수 없습니다. 건너뜁니다.
+mysql  | 경고: '/usr/share/zoneinfo/leap-seconds.list'을(를) 타임존으로 로드할 수 없습니다. 건너뜁니다.
+mysql  | 경고: '/usr/share/zoneinfo/leapseconds'을(를) 타임존으로 로드할 수 없습니다. 건너뜁니다.
+mysql  | 경고: '/usr/share/zoneinfo/tzdata.zi'을(를) 타임존으로 로드할
+```
+
+**$** docker exec -it CONTAINER_NAME bash
+
+https://developerbee.tistory.com/236
+
+
+---
+
+### 👀 Analysis
+
+---
+
+### 🌈 Solution
+
+---
+
+### 🎯 Outcome
+
+---
+
+### 👼 Reflection
