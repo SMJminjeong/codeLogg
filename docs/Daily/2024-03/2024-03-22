@@ -1,0 +1,49 @@
+---
+slug: daily/2024/
+title: 2024/0
+author: MinJeong
+author_title: Software Developer
+author_url: ttps://github.com/SMJminjeong
+author_image_url: https://i.ibb.co/hX6xc0V/MJMW0830.jpg
+tags: [software]
+---
+
+### 일지 기록
+
+:::info
+코드리뷰 부분
+:::
+
+<br/>
+[ 2024/02/07 ]
+
+### 🧐 Problem
+
+- 코드리뷰 부분
+    - key 값이 같은데 굳이 따로 만들 필요가 있나
+        - CommitSummaryKey와 LabCcpSummaryKey가 같은 키 값을 가지고 있다면, 이 둘을 구분하는 이유는 객체의 도메인이 다르기 때문입니다. 
+        - CommitSummaryKey는 CommitSummary 객체를 식별하고, LabCcpSummaryKey는 LabCcpSummary 객체를 식별합니다.  키를 따로 만드는 이유는 다음과 같습니다:
+
+          도메인 분리: 각 키는 서로 다른 도메인을 나타내므로, 이를 분리하여 관리하는 것이 좋습니다. 이렇게 하면 각 도메인의 변경이 다른 도메인에 영향을 미치지 않도록 할 수 있습니다.
+
+          확장성: 추후에 LabCcpSummary 객체가 CommitSummary와 다른 추가적인 속성을 가질 가능성이 있다면, 이를 위해 별도의 키를 만드는 것이 좋습니다. 이렇게 하면 향후 변경에 대응하기 쉽습니다.
+
+          명확성: 각 키가 서로 다른 도메인을 나타내므로, 이를 명확하게 표현하는 것이 코드의 가독성과 유지 보수성을 높일 수 있습니다.
+
+          따라서, CommitSummaryKey를 재사용하는 것이 가능하더라도, 위의 이유로 인해 LabCcpSummaryKey를 별도로 만드는 것이 좋을 수 있습니다. 
+        - 하지만 이는 프로젝트의 요구 사항과 팀의 코드 관리 방식에 따라 달라질 수 있으므로, 팀과 상의하여 결정하는 것이 좋습니다.
+---
+
+### 👀 Analysis
+
+---
+
+### 🌈 Solution
+
+---
+
+### 🎯 Outcome
+
+---
+
+### 👼 Reflection
