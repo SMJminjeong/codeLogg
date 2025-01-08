@@ -67,11 +67,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'TIL',
             position: 'left'
           },
+          // {
+          //   to: '/secondBlog',
+          //   type: 'blog',
+          //   label: 'test',
+          //   position: 'left'
+          // },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Blog',
+          },
+          {
+            to: '/docs/Project',
+            label: '프로젝트 정리',
+            position: 'left',
           },
           {
             href: 'https://code-logg.tistory.com/',
