@@ -19,3 +19,5 @@
 gpt 답변
 
 https://your-kibana-instance/app/dashboards?theme=dark
+
+결론 : 키바나 다크모드를 파라미터나 다른 설정파일로 설정할 수는 없다....
